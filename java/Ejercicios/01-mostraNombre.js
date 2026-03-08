@@ -6,6 +6,7 @@ console.log(apellido);
 //mostrar un mensaje al usuario
 //alert("Tu nombre y Apellido es: " + nombre + ',' + apellido )
 //document.writeln('<p> Tu nombre y Apellido es : ' + nombre + ' ' + apellido + ' </p>'  )
+document.open()
 document.writeln(
   `<p> Tu nombre y Apellido es :  ${nombre}  ${apellido}   </p> `,
 );
