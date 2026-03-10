@@ -12,13 +12,19 @@
 //FinAlgoritmo
 // creo las variables
 const numero1 = parseInt(prompt("Ingresa un numero para comparar"));
-//console.log(numero1)
-//console.log(20)
-//console.log('hola')
-const total = numero1 % 2;
-console.log(total);
+console.log(numero1);
+console.log(isNaN(numero1));
+console.log(isNaN(4));
+
+//validamos que el usuario ingrese un numero no un string
+if (isNaN(numero1)) {
+  alert("Ingresaste un valor erroneo");
+} else {
+  const total = numero1 % 2;
+  console.log(total);
 if (total === 0) {
   alert("El numero es par");
 } else {
   alert("El numero es impar");
+}
 }
