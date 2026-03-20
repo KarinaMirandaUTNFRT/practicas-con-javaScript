@@ -1,3 +1,4 @@
+//mostrar nombre
 const nombre = prompt("Ingresa tu nombre:"); //abre una ventana para agregar un mensaje
 const apellido = prompt("Ingresa tu apellido:"); //abre una ventana para agregar un mensaje
 console.log(nombre);
