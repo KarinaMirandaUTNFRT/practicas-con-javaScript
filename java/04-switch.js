@@ -14,7 +14,7 @@ alert("consultar el saldo");
 //alert("Aqui tengo que extraer el dinero");
 //} else {
 //alert("ingresaste una opcion erronea");
-//}
+//} 
 switch (opcion) {
   case "1":
     alert("aqui tengo que  Consultar saldo");
