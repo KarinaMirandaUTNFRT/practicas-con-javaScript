@@ -24,7 +24,6 @@ do {
       saldo = saldo + deposito;
       alert(`Ingresaste $ ${deposito}, tu saldo actual es $${saldo}`);
       break;
-    case "3":
     case "extraer":
     case "3":
     case 3:
