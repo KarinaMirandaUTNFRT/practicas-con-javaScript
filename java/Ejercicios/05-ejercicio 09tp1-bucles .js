@@ -22,4 +22,3 @@ for (let caracter = 0; caracter < frase.length; caracter++) {
     pantalla.innerHTML += frase.charAt(caracter);
   }
 }
- 
